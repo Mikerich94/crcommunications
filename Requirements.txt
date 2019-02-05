@@ -20,4 +20,4 @@ User Profiles
 * User should see a link to new profile form upon signing up 
 * User should be able to create and view user profile
 * User profile should have profile picture
-* 
+* User should be able to view all user profiles
