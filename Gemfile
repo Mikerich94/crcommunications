@@ -29,7 +29,7 @@ gem 'bootstrap-sass' , '3.3.7'
 #Use twitter bootstrap library for front-end UI and layout
 
 # Use Font Awesome sass gem for adding icons
-gem 'font-awesome-sass', '4.6.2'
+gem 'font-awesome-sass','4.6.2'
 
 # Use Hirb for better database display in console
 gem 'hirb', '0.7.3' 
