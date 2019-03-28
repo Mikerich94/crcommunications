@@ -68,12 +68,12 @@ font-family: 'Open Sans', 'sans-serif'
     border-bottom: 0;
     background: image-url('/assets/public_speaking.jpg'); 
     background-color: #3a90cb;
-    background-size: auto 150%;
     position: relative;
     overflow: hidden;
-    min-height: 700px;
+    background-size: auto 190%;
+    min-height: 300px;
     height: calc(100vh - 100px);
-    max-height: 1000px;
+    max-height: 606px;
     
 }
 
@@ -81,13 +81,14 @@ font-family: 'Open Sans', 'sans-serif'
     clear: both;
     padding-top: 150px;
     margin: 0 auto;
+     font-family: Montserrat, sans-serif;
     text-align: center;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
  h1 {
     font-size: 46px;
     color: white;
-    font-family: Montserrat, sans-serif;
     margin-bottom: 0px;
     display: block;
     text-align: center;
