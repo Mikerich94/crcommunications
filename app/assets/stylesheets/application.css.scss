@@ -181,12 +181,29 @@ font-family: 'Open Sans', 'sans-serif'
 
 //About Me
 
+.about-header-box {
+  font-family: 'Montserrat',sans-serif !important;
+  position: relative;
+  margin-top: 20px;
+  padding: 0;
+}
+
+.about-text {
+  margin-left: 40px;
+}
+
 .about-image {
+  display: inline-block;
+  float: left;
+  border-radius: 75%;
+  border-image-slice: 100%;
   display: block;
-  width: 50%;
-  margin-top: 20;
-  margin-left: auto;
-  margin-right: auto;
+  width: 370px;
+  border: 0px;
+  padding-right: 0 !important;
+  vertical-align: bottom;
+  max-width: 100% !important;
+  box-sizing: border-box;
 }
 
 .row-fluid {
