@@ -189,23 +189,21 @@ font-family: 'Open Sans', 'sans-serif'
 }
 
 .about-text {
-  margin-left: 40px;
+  margin-left: 100px;
 }
 
 .about-image {
   display: inline-block;
   float: left;
-  border-radius: 75%;
-  border-image-slice: 100%;
-  display: block;
+  border-radius: 50%;
   width: 370px;
-  border: 0px;
-  padding-right: 0 !important;
-  vertical-align: bottom;
-  max-width: 100% !important;
-  box-sizing: border-box;
+  padding-right: 30px;
+  padding-left: 30px;
 }
 
+.about-image-container {
+  
+}
 .row-fluid {
   width: 100%;
   box-sizing: border-box;
