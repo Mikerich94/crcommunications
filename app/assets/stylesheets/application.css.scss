@@ -201,25 +201,24 @@ hr {
  width: 100%; 
 }
 
-.first-course-image {
-  width: 350px;
+.course-image {
+  width: 380px;
   height: 300px;
-  padding-right: 20px;
+  padding-right: 10px;
 }
 
-.second-course-image {
-  width: 350px;
-  height: 300px;
-  padding-right: 20px;
-}
-
-.third-course-image {
- width: 350px;
-  height: 300px;
-  padding-right: 20px;
-}
 
 .blue-header {
+  font-family: 'Montserrat',sans-serif !important;
   color: #075dab;
+  font-weight: bold;
   font-size: 20px;
+  text-align: left;
+}
+
+.offerings-info {
+  font-family: 'Montserrat',sans-serif !important;
+  font-size: 18px;
+  text-align: left;
+  padding-bottom: 10px;
 }
