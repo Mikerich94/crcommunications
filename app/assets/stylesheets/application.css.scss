@@ -181,13 +181,6 @@ font-family: 'Open Sans', 'sans-serif'
 
 //About Me
 
-.about-header-box {
-  font-family: 'Montserrat',sans-serif !important;
-  position: relative;
-  margin-top: 10px;
-  padding: 0;
-}
-
 .about-text {
   margin-left: 100px;
 }
@@ -212,14 +205,14 @@ font-family: 'Open Sans', 'sans-serif'
 }
 
 //Pulls text closer to "About Me" 
-.text-center {
+.text-center-about {
   margin-bottom: -20px;
 }
 
-.header {
-  text-align: center;
+.header-about {
+    text-align: center;
     margin-bottom: 10px;
-    font-family: 'Montserrat',sans-serif !important;
+     font-family: 'Open Sans',Arial,sans-serif !important;
     font-size: 32px;
     color: #000;
     font-weight: bold;
@@ -229,7 +222,7 @@ font-family: 'Open Sans', 'sans-serif'
     padding: 0;
 }
 
-.subheadings {
+.subheading-about {
     font-size: 20px;
     color: #444;
     font-family: 'Open Sans',Arial,sans-serif !important;
