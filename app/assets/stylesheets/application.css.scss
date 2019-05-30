@@ -169,7 +169,7 @@ font-family: 'Open Sans', 'sans-serif'
 }
 
 .header {
-  font-family: 'Montserrat',sans-serif !important;
+  font-family: 'Open Sans',Arial,sans-serif !important;
   font-size: 32px;
   color: #000;
   font-weight: bold;
@@ -192,7 +192,7 @@ hr {
 }
 
 .top-paragraph {
-  font-family: 'Montserrat',sans-serif !important;
+  font-family: 'Open Sans',Arial,sans-serif !important;
   font-size: 16px;
   text-align: center;
 }
@@ -204,24 +204,25 @@ hr {
 .course-image {
   width: 400px;
   height: 300px;
-  padding-right: 15px;
+  padding-right: 20px;
 }
 
 .blue-header {
-  font-family: 'Montserrat',sans-serif !important;
+  font-family: 'Open Sans',Arial,sans-serif !important;
   color: #075dab;
   font-weight: bold;
   font-size: 20px;
   text-align: left;
-  padding-left: 10px;
+  padding-right: 20px;
   margin: 5px;
 }
 
 .offerings-info {
-  font-family: 'Montserrat',sans-serif !important;
-  font-size: 18px;
+     font-family: 'Open Sans',Arial,sans-serif !important;
+  font-size: 16px;
   text-align: left;
-  padding-left: 10px;
+  padding-right: 20px;
   padding-top: 5px;
+  padding-bottom: 5px;
   margin: 5px;
 }
