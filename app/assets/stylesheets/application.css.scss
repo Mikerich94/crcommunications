@@ -128,13 +128,16 @@ font-family: 'Open Sans', 'sans-serif'
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    padding-bottom: 100px;
+    padding-bottom: 150px;
+}
+
+.bottom-spacing {
+  height: 250px;
 }
 
 .lower-page {
   background-color: #efefef;
   width: 100%;
-  
 }
 
 .lower-page-content {
