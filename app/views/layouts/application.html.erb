@@ -32,10 +32,17 @@
   
     <ul class="nav navbar-nav navbar-right">
       <li><%= link_to "About", about_path %></li>
-      <li><%= link_to "Offerings", offerings_path %></li>
+      <li>
+        <button onclick="myFunction()" class="dropbtn">Workshops</button>
+          <div id="myDropdown" class="dropdown-content">
+            <%= link_to "Offerings", offerings_path %>
+          </div>
+      </li>
       <li><%= link_to "Contact Form", new_contact_path %></li>
        
       </ul>
+
+
     </div><!-- /.navbar-collapse -->
   </div>
 </nav>
