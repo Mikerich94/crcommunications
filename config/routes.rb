@@ -1,4 +1,12 @@
 Rails.application.routes.draw do
+  get 'pages/home'
+
+  get 'pages/about'
+
+  get 'pages/offerings'
+
+  get 'pages/public_speaking'
+
   root to: "pages#home"
   devise_for :users, controllers: { registrations: 'users/registrations' }
   resources :users do 
