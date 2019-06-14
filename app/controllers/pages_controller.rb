@@ -10,4 +10,5 @@ class PagesController < ApplicationController
 
   def public_speaking
   end
-end
+end 
+
