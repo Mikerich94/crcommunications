@@ -11,7 +11,8 @@ class PagesController < ApplicationController
   def public_speaking
   end
   
-  def nonverbal
-  end   
+  def serve
+  end 
+
 end 
 
