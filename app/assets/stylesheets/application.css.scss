@@ -297,11 +297,27 @@ hr {
 }
 
 .offerings-info {
-     font-family: 'Open Sans',Arial,sans-serif !important;
+  font-family: 'Open Sans',Arial,sans-serif !important;
   font-size: 16px;
   text-align: left;
   padding-right: 20px;
   padding-top: 5px;
   padding-bottom: 5px;
   margin: 5px;
+}
+
+// Public Speaking
+
+.workshop-image {
+  width: 400px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.course-summary {
+  font-family: 'Open Sans',Arial,sans-serif !important;
+  font-size: 16px;
+  text-align: left;
+  text-align: center;
 }
