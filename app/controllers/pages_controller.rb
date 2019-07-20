@@ -13,6 +13,9 @@ class PagesController < ApplicationController
   
   def serve
   end 
+  
+  def business_writing
+  end 
 
 end 
 

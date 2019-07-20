@@ -16,4 +16,5 @@ Rails.application.routes.draw do
   resources :contacts, only: [:create]
   get 'contact-us', to: 'contacts#new', as: 'new_contact' 
   get 'offerings', to: 'pages#offerings'
+  get 'business_writing', to: 'pages#business_writing'
 end
