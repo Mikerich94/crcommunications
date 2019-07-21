@@ -38,6 +38,16 @@ font-family: 'Open Sans', 'sans-serif'
   border: none;
 }
 
+// Color of hyperlinks on navbar (Offerings)
+.navbar a {
+  color:white;
+  &:hover {
+    color: white;
+    opacity: 0.75;
+    text-decoration:none;
+  }
+}
+
 .navbar-brand {
   font-family: 'Open Sans', sans-serif;
   font-weight: 800;
@@ -69,9 +79,6 @@ font-family: 'Open Sans', 'sans-serif'
   display: inline-block;
 }
 
-/* Dropdown button on hover & focus */
-.dropbtn:hover, .dropbtn:focus {
-}
 
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
@@ -97,9 +104,6 @@ font-family: 'Open Sans', 'sans-serif'
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: block;}
 
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
-
 // Home Page Styles
 .navbar-default .navbar-brand,
 .navbar-default .navbar-nav > li > a {
@@ -110,13 +114,6 @@ font-family: 'Open Sans', 'sans-serif'
   }
 }
 
-.dropbtn {
-  color:white;
-  &:hover {
-    color:white;
-    opacity: 0.75;
-  }
-}
 
 // Margin between navbar and rest of the page
  .home-signup-links {
