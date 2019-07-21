@@ -63,14 +63,14 @@ font-family: 'Open Sans', 'sans-serif'
   cursor: pointer;
 }
 
-/* Dropdown button on hover & focus */
-.dropbtn:hover, .dropbtn:focus {
-}
-
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
   position: relative;
   display: inline-block;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
 }
 
 /* Dropdown Content (Hidden by Default) */
@@ -94,9 +94,11 @@ font-family: 'Open Sans', 'sans-serif'
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {background-color: #ddd}
 
-/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-.show {display:block;}
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
 
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
 
 // Home Page Styles
 .navbar-default .navbar-brand,
